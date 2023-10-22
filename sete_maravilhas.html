@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a3ba4f62531d1ac9630bd48e57a09604 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a3ba4f62531d1ac9630bd48e57a09604" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a3ba4f62531d1ac9630bd48e57a09604 = L.map(
+                "map_a3ba4f62531d1ac9630bd48e57a09604",
+                {
+                    center: [-15.796848775172192, -47.880286612703706],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_a3ba4f62531d1ac9630bd48e57a09604);
+
+            
+
+        
+    
+            var tile_layer_71ff5b1d16279ef0fe2a191f2e94f7d3 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a3ba4f62531d1ac9630bd48e57a09604);
+        
+    
+            var marker_5078a5c37c8dac3b860b9d9ce1ecff87 = L.marker(
+                [-15.796848775172192, -47.880286612703706],
+                {}
+            ).addTo(map_a3ba4f62531d1ac9630bd48e57a09604);
+        
+    
+            var icon_301b75dc96e046dff13173f6e91a11b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-camera", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_5078a5c37c8dac3b860b9d9ce1ecff87.setIcon(icon_301b75dc96e046dff13173f6e91a11b3);
+        
+    
+        var popup_c032fc2d7fa956f4e822d2b43a0327c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b0f1fd502168a7601f3b04389736bdd = $(`<div id="html_9b0f1fd502168a7601f3b04389736bdd" style="width: 100.0%; height: 100.0%;">Biblioteca Nacional de Brasília Leonel de Moura Brizola</div>`)[0];
+                popup_c032fc2d7fa956f4e822d2b43a0327c9.setContent(html_9b0f1fd502168a7601f3b04389736bdd);
+            
+        
+
+        marker_5078a5c37c8dac3b860b9d9ce1ecff87.bindPopup(popup_c032fc2d7fa956f4e822d2b43a0327c9)
+        ;
+
+        
+    
+    
+            var marker_da2b24c9e1e6ce6c0909ba417b366af4 = L.marker(
+                [-15.797150400602682, -47.878092362943896],
+                {}
+            ).addTo(map_a3ba4f62531d1ac9630bd48e57a09604);
+        
+    
+            var icon_bf4cb331d1d47c029fb6117782fc482f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-camera", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_da2b24c9e1e6ce6c0909ba417b366af4.setIcon(icon_bf4cb331d1d47c029fb6117782fc482f);
+        
+    
+        var popup_c7f72711593a515206e783159af18286 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ce7b193f11520a2d399fe7ca4add397 = $(`<div id="html_3ce7b193f11520a2d399fe7ca4add397" style="width: 100.0%; height: 100.0%;">Museu Nacional da República</div>`)[0];
+                popup_c7f72711593a515206e783159af18286.setContent(html_3ce7b193f11520a2d399fe7ca4add397);
+            
+        
+
+        marker_da2b24c9e1e6ce6c0909ba417b366af4.bindPopup(popup_c7f72711593a515206e783159af18286)
+        ;
+
+        
+    
+    
+            var marker_b6a5f650b73594075ea8811cb4cc57ba = L.marker(
+                [-15.798349163898507, -47.87562483665722],
+                {}
+            ).addTo(map_a3ba4f62531d1ac9630bd48e57a09604);
+        
+    
+            var icon_f944fb4fabd4f70875bf1abc4e8596bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-camera", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_b6a5f650b73594075ea8811cb4cc57ba.setIcon(icon_f944fb4fabd4f70875bf1abc4e8596bd);
+        
+    
+        var popup_de38b37aaeea051dc5132a4ba70e7a46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0551cb602e8f0df2d2d3b2b54e97dde3 = $(`<div id="html_0551cb602e8f0df2d2d3b2b54e97dde3" style="width: 100.0%; height: 100.0%;">Catedral Metropolitana Nossa Senhora Aparecida</div>`)[0];
+                popup_de38b37aaeea051dc5132a4ba70e7a46.setContent(html_0551cb602e8f0df2d2d3b2b54e97dde3);
+            
+        
+
+        marker_b6a5f650b73594075ea8811cb4cc57ba.bindPopup(popup_de38b37aaeea051dc5132a4ba70e7a46)
+        ;
+
+        
+    
+    
+            var marker_69a673b25b12becedd534f6e51870e54 = L.marker(
+                [-15.799492994560044, -47.864136205097125],
+                {}
+            ).addTo(map_a3ba4f62531d1ac9630bd48e57a09604);
+        
+    
+            var icon_217bb4298f68fdce1fa09061b5de4f52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-camera", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_69a673b25b12becedd534f6e51870e54.setIcon(icon_217bb4298f68fdce1fa09061b5de4f52);
+        
+    
+        var popup_1ddd5577c0dd8342702a8a8d99014f40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46889b68531dc1792054539e98c89c47 = $(`<div id="html_46889b68531dc1792054539e98c89c47" style="width: 100.0%; height: 100.0%;">Congresso Nacional</div>`)[0];
+                popup_1ddd5577c0dd8342702a8a8d99014f40.setContent(html_46889b68531dc1792054539e98c89c47);
+            
+        
+
+        marker_69a673b25b12becedd534f6e51870e54.bindPopup(popup_1ddd5577c0dd8342702a8a8d99014f40)
+        ;
+
+        
+    
+    
+            var marker_bf944ec701cfb35589b06261dc8da3db = L.marker(
+                [-15.802188636172216, -47.86179092119945],
+                {}
+            ).addTo(map_a3ba4f62531d1ac9630bd48e57a09604);
+        
+    
+            var icon_7af3622c8b6bb9459b338e813bebd00a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-camera", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_bf944ec701cfb35589b06261dc8da3db.setIcon(icon_7af3622c8b6bb9459b338e813bebd00a);
+        
+    
+        var popup_6f7e4e5f72d4fa6b8fb6c227fbe40f32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c46cb2b056dfcd8b3482c3656cd2ca6e = $(`<div id="html_c46cb2b056dfcd8b3482c3656cd2ca6e" style="width: 100.0%; height: 100.0%;">Supremo Tribunal Federal</div>`)[0];
+                popup_6f7e4e5f72d4fa6b8fb6c227fbe40f32.setContent(html_c46cb2b056dfcd8b3482c3656cd2ca6e);
+            
+        
+
+        marker_bf944ec701cfb35589b06261dc8da3db.bindPopup(popup_6f7e4e5f72d4fa6b8fb6c227fbe40f32)
+        ;
+
+        
+    
+    
+            var marker_2a52b2125427555b281a276241077777 = L.marker(
+                [-15.798961688446642, -47.860994994157615],
+                {}
+            ).addTo(map_a3ba4f62531d1ac9630bd48e57a09604);
+        
+    
+            var icon_9b2cc7eaaa70ce4089425aa85e42fca8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-camera", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_2a52b2125427555b281a276241077777.setIcon(icon_9b2cc7eaaa70ce4089425aa85e42fca8);
+        
+    
+        var popup_1060f96080b752c6421f45b31f1cc354 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46382b35bd961af1dfeb2e416042562d = $(`<div id="html_46382b35bd961af1dfeb2e416042562d" style="width: 100.0%; height: 100.0%;">Palácio do Planalto</div>`)[0];
+                popup_1060f96080b752c6421f45b31f1cc354.setContent(html_46382b35bd961af1dfeb2e416042562d);
+            
+        
+
+        marker_2a52b2125427555b281a276241077777.bindPopup(popup_1060f96080b752c6421f45b31f1cc354)
+        ;
+
+        
+    
+    
+            var marker_66f58a551a28f9ac569b45daaa41a32a = L.marker(
+                [-15.792661794715526, -47.82212067657721],
+                {}
+            ).addTo(map_a3ba4f62531d1ac9630bd48e57a09604);
+        
+    
+            var icon_99ad708eae55d8af477b51328efcfbeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon glyphicon-camera", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_66f58a551a28f9ac569b45daaa41a32a.setIcon(icon_99ad708eae55d8af477b51328efcfbeb);
+        
+    
+        var popup_207887de03b76df304a85da64d7f604c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02003efe03a23e8af89eb83dacd6078f = $(`<div id="html_02003efe03a23e8af89eb83dacd6078f" style="width: 100.0%; height: 100.0%;">Palácio da Alvorada</div>`)[0];
+                popup_207887de03b76df304a85da64d7f604c.setContent(html_02003efe03a23e8af89eb83dacd6078f);
+            
+        
+
+        marker_66f58a551a28f9ac569b45daaa41a32a.bindPopup(popup_207887de03b76df304a85da64d7f604c)
+        ;
+
+        
+    
+    
+                var lat_lng_popup_87cf5ad1803341d634030bfd7bb353b8 = L.popup();
+                function latLngPop(e) {
+                    lat_lng_popup_87cf5ad1803341d634030bfd7bb353b8
+                        .setLatLng(e.latlng)
+                        .setContent("Latitude: " + e.latlng.lat.toFixed(4) +
+                                    "<br>Longitude: " + e.latlng.lng.toFixed(4))
+                        .openOn(map_a3ba4f62531d1ac9630bd48e57a09604);
+                    }
+                map_a3ba4f62531d1ac9630bd48e57a09604.on('click', latLngPop);
+            
+</script>
+</html>
